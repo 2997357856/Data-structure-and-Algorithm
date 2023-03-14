@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/TestComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/ComparableTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="初始化项目-学习数据结构和算法" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
