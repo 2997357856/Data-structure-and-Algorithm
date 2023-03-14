@@ -8,13 +8,13 @@ import com.yzx.sort.Student;
  * @Java-version jdk1.8
  */
 //定义测试类Test，在测试类Test中定义测试方法Comparable getMax(Comparable c1,Comparable c2)完成测试
-public class TestComparable {
+public class ComparableTest {
 
     public static void main(String[] args) {
         Student s1 = new Student("张三",23);
         Student s2 = new Student("李四",30);
-        Comparable max = TestComparable.getMaxFirst(s1, s2);
-        Student result = TestComparable.getMaxSecond(s1, s2);
+        Comparable max = ComparableTest.getMaxFirst(s1, s2);
+        Student result = ComparableTest.getMaxSecond(s1, s2);
         System.out.println(max);
         System.out.println(result);
     }
