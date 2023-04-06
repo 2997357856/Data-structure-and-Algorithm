@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="初始化项目-学习数据结构和算法" />
+    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,20 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/DataStructureAndAlgorithm&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.InsertionTest">
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.sort.Bubble" />
-      <module name="DataStructureAndAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzx.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.ShellTest">
     <configuration name="InsertionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzx.test.InsertionTest" />
       <module name="DataStructureAndAlgorithm" />
@@ -63,8 +52,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.test.BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.BubbleTest" />
+    <configuration name="MyOutputWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.io.MyOutputWriter" />
+      <module name="DataStructureAndAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzx.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.ShellTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.test.ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.ComparableTest" />
+    <configuration name="com.yzx.test.BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.BubbleTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ShellTest" />
+        <item itemvalue="应用程序.MyOutputWriter" />
         <item itemvalue="应用程序.InsertionTest" />
         <item itemvalue="应用程序.com.yzx.test.SelectTest" />
         <item itemvalue="应用程序.com.yzx.test.BubbleTest" />
-        <item itemvalue="应用程序.Bubble" />
-        <item itemvalue="应用程序.com.yzx.test.ComparableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +138,7 @@
       <workItem from="1678699593713" duration="75000" />
       <workItem from="1678763274476" duration="2013000" />
       <workItem from="1678779223477" duration="7809000" />
+      <workItem from="1680778607079" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -163,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目-学习数据结构和算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目-学习数据结构和算法" />
+    <MESSAGE value="重新提交冒泡排序、选择排序和插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新提交冒泡排序、选择排序和插入排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
