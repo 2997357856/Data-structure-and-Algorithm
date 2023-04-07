@@ -10,7 +10,7 @@ import com.yzx.sort.Shell;
 //希尔排序测试
 public class ShellTest {
     public static void main(String[] args) {
-        Comparable[] a = new Comparable[]{7,9,3,1,7,3,9,4};
+        Comparable[] a = new Comparable[]{9,8,7,6,5,4,3,2,1};
         Shell.sort(a);
     }
 }

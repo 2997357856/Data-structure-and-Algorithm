@@ -24,7 +24,8 @@ public class Shell {
             //2.1 找到待插入的元素(第一次插入的元素恰好就是h的值，所以i=h，i为遍历索引)
             for (int i = h ; i < arr.length; i++){
                 //2.2 把待插入的元素插入到有序数列中
-                // 待插入元素为j，所以j=i，因为是
+                // 待插入元素为j，所以j=i，因为步长是h，所以要插入的数字的条件就是j=j-h
+                //  并且终止条件是j>=h
                 for (int j = i ; j >= h ;j-=h){
                     //待插入的元素是a[j]，比较a[j]和a[j-h]
                     if (greater(arr[j-h],arr[j])){
@@ -39,8 +40,6 @@ public class Shell {
             //减小h的值
             h=h/2;
         }
-        System.out.println(Arrays.toString(arr));
-
     }
 
     //用来实现num1和num2的数字大小比较

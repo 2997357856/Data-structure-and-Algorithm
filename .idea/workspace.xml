@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/ShellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/ShellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/SortCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +42,22 @@
     &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/DataStructureAndAlgorithm&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.ShellTest">
-    <configuration name="InsertionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.InsertionTest" />
+  <component name="RunManager" selected="应用程序.MergeTest">
+    <configuration name="FactorialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.FactorialTest" />
+      <module name="DataStructureAndAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.MergeTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -78,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.test.BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.BubbleTest" />
-      <module name="DataStructureAndAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.yzx.test.SelectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.SelectTest" />
+    <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.SortCompare" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.MergeTest" />
+        <item itemvalue="应用程序.FactorialTest" />
+        <item itemvalue="应用程序.SortCompare" />
         <item itemvalue="应用程序.ShellTest" />
         <item itemvalue="应用程序.MyOutputWriter" />
-        <item itemvalue="应用程序.InsertionTest" />
-        <item itemvalue="应用程序.com.yzx.test.SelectTest" />
-        <item itemvalue="应用程序.com.yzx.test.BubbleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +142,8 @@
       <workItem from="1678699593713" duration="75000" />
       <workItem from="1678763274476" duration="2013000" />
       <workItem from="1678779223477" duration="7809000" />
-      <workItem from="1680778607079" duration="2522000" />
+      <workItem from="1680778607079" duration="3303000" />
+      <workItem from="1680849597515" duration="4287000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -147,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678614804437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现希尔排序以及希尔排序和插入排序的比较">
+      <created>1680781197316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781197316</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现希尔排序以及希尔排序和插入排序的比较">
+      <created>1680781273959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781273959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目-学习数据结构和算法" />
     <MESSAGE value="重新提交冒泡排序、选择排序和插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新提交冒泡排序、选择排序和插入排序" />
+    <MESSAGE value="实现希尔排序以及希尔排序和插入排序的比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现希尔排序以及希尔排序和插入排序的比较" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,6 +196,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yzx/sort/Shell.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

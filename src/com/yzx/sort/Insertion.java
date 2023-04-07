@@ -28,7 +28,6 @@ public class Insertion {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
     }
 
     //用来实现num1和num2的数字大小比较

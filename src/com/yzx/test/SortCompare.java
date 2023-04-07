@@ -26,7 +26,7 @@ public class SortCompare {
         String line = null;
         //存储到集合
         while ((line = br.readLine())!=null){
-            list.add(Integer.parseInt(line));
+            list.add(Integer.valueOf(line));
         }
         br.close();
         isr.close();
