@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/MergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/MergeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/BubbleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/BubbleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/ComparableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/ComparableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/InsertionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/InsertionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/MergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/MergeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/QuickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/QuickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/SelectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/SelectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/ShellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/ShellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sortTest/SortCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -32,21 +40,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/DataStructureAndAlgorithm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IDEA/IDEACode/DHCP",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.QuickTest">
+}]]></component>
+  <component name="RunManager" selected="应用程序.SequenceListTest">
     <configuration name="FactorialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.FactorialTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yzx.sortTest.FactorialTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="PATTERN" value="com.yzx.sortTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="MergeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.MergeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yzx.sortTest.MergeTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="PATTERN" value="com.yzx.sortTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="QuickTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.QuickTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yzx.sortTest.QuickTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="PATTERN" value="com.yzx.sortTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.ShellTest" />
+    <configuration name="SequenceListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.SequenceListTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.test.SortCompare" />
+      <option name="MAIN_CLASS_NAME" value="com.yzx.sortTest.SortCompare" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.test.*" />
+          <option name="PATTERN" value="com.yzx.sortTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.QuickTest" />
-        <item itemvalue="应用程序.MergeTest" />
-        <item itemvalue="应用程序.FactorialTest" />
-        <item itemvalue="应用程序.SortCompare" />
-        <item itemvalue="应用程序.ShellTest" />
+        <item itemvalue="应用程序.SequenceListTest" />
+        <item itemvalue="应用程序.com.yzx.sortTest.QuickTest" />
+        <item itemvalue="应用程序.com.yzx.sortTest.MergeTest" />
+        <item itemvalue="应用程序.com.yzx.sortTest.FactorialTest" />
+        <item itemvalue="应用程序.com.yzx.sortTest.SortCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +151,7 @@
       <workItem from="1678779223477" duration="7809000" />
       <workItem from="1680778607079" duration="3303000" />
       <workItem from="1680849597515" duration="6259000" />
-      <workItem from="1680919456696" duration="3909000" />
+      <workItem from="1680919456696" duration="12630000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -172,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680854292853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="实现快速排序以及对应的测试">
+      <created>1680923494542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680923494542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +210,8 @@
     <MESSAGE value="重新提交冒泡排序、选择排序和插入排序" />
     <MESSAGE value="实现希尔排序以及希尔排序和插入排序的比较" />
     <MESSAGE value="实现归并排序以及对应的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现归并排序以及对应的测试" />
+    <MESSAGE value="实现快速排序以及对应的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现快速排序以及对应的测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

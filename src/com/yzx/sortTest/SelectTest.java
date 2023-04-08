@@ -1,8 +1,6 @@
-package com.yzx.test;
+package com.yzx.sortTest;
 
 import com.yzx.sort.Selection;
-
-import static com.yzx.sort.Bubble.sort;
 
 /**
  * @Author YZX

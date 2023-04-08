@@ -1,6 +1,5 @@
-package com.yzx.test;
+package com.yzx.sortTest;
 
-import com.yzx.sort.Merge;
 import com.yzx.sort.Quick;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.yzx.test;
+package com.yzx.sortTest;
 
 import com.yzx.sort.Insertion;
 
