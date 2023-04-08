@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/ShellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/ShellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/SortCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/test/MergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/test/MergeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/DataStructureAndAlgorithm&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.MergeTest">
+  <component name="RunManager" selected="应用程序.QuickTest">
     <configuration name="FactorialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzx.test.FactorialTest" />
       <module name="DataStructureAndAlgorithm" />
@@ -69,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOutputWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.io.MyOutputWriter" />
+    <configuration name="QuickTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.test.QuickTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.io.*" />
+          <option name="PATTERN" value="com.yzx.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.QuickTest" />
         <item itemvalue="应用程序.MergeTest" />
         <item itemvalue="应用程序.FactorialTest" />
         <item itemvalue="应用程序.SortCompare" />
         <item itemvalue="应用程序.ShellTest" />
-        <item itemvalue="应用程序.MyOutputWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +141,8 @@
       <workItem from="1678763274476" duration="2013000" />
       <workItem from="1678779223477" duration="7809000" />
       <workItem from="1680778607079" duration="3303000" />
-      <workItem from="1680849597515" duration="4287000" />
+      <workItem from="1680849597515" duration="6259000" />
+      <workItem from="1680919456696" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680781273959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实现归并排序以及对应的测试">
+      <created>1680854292853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680854292853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +193,8 @@
     <MESSAGE value="初始化项目-学习数据结构和算法" />
     <MESSAGE value="重新提交冒泡排序、选择排序和插入排序" />
     <MESSAGE value="实现希尔排序以及希尔排序和插入排序的比较" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现希尔排序以及希尔排序和插入排序的比较" />
+    <MESSAGE value="实现归并排序以及对应的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现归并排序以及对应的测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

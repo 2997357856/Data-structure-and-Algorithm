@@ -41,8 +41,8 @@ public class Merge {
     private static void merge(Comparable[] a, int lo, int mid, int hi) {
         //定义三个指针
         int i = lo;//指向辅助数组
-        int p1 = lo;
-        int p2 = mid+1;
+        int p1 = lo;//指向前半段数组
+        int p2 = mid+1;//指向后半段数组
         //遍历，移动p1和p2指针，比较对应索引处的值，放到辅助数组中
         while (p1<=mid && p2<=hi){
             //比较对应索引处的值
@@ -70,13 +70,6 @@ public class Merge {
     //判断v是否小于w
     private static boolean less(Comparable v,Comparable w) {
         return v.compareTo(w)<0;
-    }
-
-    //交换a数组中，索引i和索引j处的值
-    private static void exch(Comparable[] arr,int i,int j){
-        Comparable temp = arr[i];
-        arr[i] =  arr[j];
-        arr[j] = temp;
     }
 
 }
