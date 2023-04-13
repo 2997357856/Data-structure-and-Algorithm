@@ -1,4 +1,4 @@
-package com.yzx.linear;
+package com.yzx.linear.Sequence;
 
 
 import java.util.Iterator;

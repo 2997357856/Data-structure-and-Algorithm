@@ -1,6 +1,6 @@
-package com.yzx.LinearTest;
+package com.yzx.LinearTest.SequenceTest;
 
-import com.yzx.linear.SequenceList;
+import com.yzx.linear.Sequence.SequenceList;
 
 /**
  * @Author YZX
