@@ -15,6 +15,9 @@ public class SequenceListTest {
         sequenceList.insert(2);
         sequenceList.insert(3);
         sequenceList.insert(2,4);
+        for (Object i : sequenceList){
+            System.out.println(i);
+        }
         //测试获取
         int length = sequenceList.getLength();
         System.out.println("顺序表的长度为："+length);
@@ -23,8 +26,10 @@ public class SequenceListTest {
         Integer remove = sequenceList.remove(1);
         System.out.println("删除的名字为："+remove);
         //测试清空
-        sequenceList.clear();
-        System.out.println("顺序表的长度为："+sequenceList.getLength());
+        //sequenceList.clear();
+        //System.out.println("顺序表的长度为："+sequenceList.getLength());
+
+
 
     }
 }
