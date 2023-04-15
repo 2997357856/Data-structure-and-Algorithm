@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,12 @@
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.DoublyLinkListTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzx.LinearTest.LinkListTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.LinkListTest1">
     <configuration name="DoublyLinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.DoublyListTest.DoublyLinkListTest" />
       <module name="DataStructureAndAlgorithm" />
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.SequenceTest.SequenceListTest1" />
+    <configuration name="LinkListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkListTest.LinkListTest1" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.SequenceTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DoublyLinkListTest" />
+        <item itemvalue="应用程序.LinkListTest1" />
         <item itemvalue="应用程序.LinkListTest" />
+        <item itemvalue="应用程序.DoublyLinkListTest" />
         <item itemvalue="应用程序.com.yzx.LinearTest.SequenceTest.SequenceListTest" />
       </list>
     </recent_temporary>
@@ -151,7 +156,7 @@
       <workItem from="1681297765849" duration="2697000" />
       <workItem from="1681349140650" duration="8003000" />
       <workItem from="1681374733606" duration="4556000" />
-      <workItem from="1681523319404" duration="6495000" />
+      <workItem from="1681523319404" duration="9786000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -209,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681375447163</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="实现双向链表的定义以及常见API">
+      <created>1681530117239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681530117239</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +247,8 @@
     <MESSAGE value="实现顺序列表的构造" />
     <MESSAGE value="实现顺序列表的扩容和缩容" />
     <MESSAGE value="实现链表的定义以及常见API" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现链表的定义以及常见API" />
+    <MESSAGE value="实现双向链表的定义以及常见API" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现双向链表的定义以及常见API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

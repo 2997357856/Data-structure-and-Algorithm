@@ -138,4 +138,39 @@ public class LinkList<T> implements Iterable{
             return n.item;
         }
     }
+
+    //用来反转整个链表
+    public void reverse(){
+        //判断当前链表如果为空，则直接返回
+        if (N==0){
+            return;
+        }
+        //如果不是空链表，调用重载反转链表
+        reverse(head.next);
+    }
+
+    //反转指定节点curr，并且把当前节点返回
+    //假设反转 1->2->3->4
+    public Node reverse(Node curr){
+        //如果反转的节点没有下一个节点，即停止反转
+        //到4便停止
+        if (curr.next==null){
+            //直接将头节点指向当前节点
+            head.next = curr;
+            return curr;
+        }
+        /**
+         * 否则递归反转当前链表节点的下一个节点,返回值节点就是链表反转后当前节点的上一个节点
+         * 假设遍历到了 3 ， 则 3 的下一个节点为 4 ，反转之后 4 是 3 的 pre节点
+         */
+        Node pre = reverse(curr.next);
+        /**
+         * 这里开始设置指向：让返回的节点的下一个节点变为当前节点curr
+         * 即从 3->4 变成了 3<-4
+         */
+        pre.next = curr;
+        //把当前节点的下一个节点变为null
+        curr.next = null;
+        return curr;
+    }
 }
