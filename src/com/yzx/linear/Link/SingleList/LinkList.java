@@ -1,4 +1,4 @@
-package com.yzx.linear.Link;
+package com.yzx.linear.Link.SingleList;
 
 import java.util.Iterator;
 
@@ -63,24 +63,30 @@ public class LinkList<T> implements Iterable{
 
     //向链表的指定位置插入元素
     public void insert(int i , T t){
+        if (i<0 || i>=N){
+            throw new RuntimeException("位置不合法");
+        }
         //找到i-1和i节点
         Node preNode = head;// i-1 节点
         for (int index = 0 ; index<=i-1 ; index++){
             preNode = preNode.next;
         }
-        Node nextNode = preNode.next;// i 节点
+        Node currentNode = preNode.next;// i 节点
         //创建新节点newNode
         Node newNode = new Node(t,null);
         //让i-1节点的next节点指向创建的newNode
         preNode.next = newNode;
         //将newNode的next节点指向原本的i节点
-        newNode.next = nextNode;
+        newNode.next = currentNode;
         //元素个数++
         N++;
     }
 
     //删除指定位置的索引，并且返回被删除的元素
     public T remove(int i){
+        if (i<0 || i>=N){
+            throw new RuntimeException("位置不合法");
+        }
         //找到 i-1 、 i 、i+1 节点
         Node preNode = head ; //找到i-1
         for (int index = 0 ; index<=i-1 ; index++){
@@ -112,7 +118,7 @@ public class LinkList<T> implements Iterable{
     //实现遍历输出
     @Override
     public Iterator iterator() {
-        return null;
+        return new LIterator();
     }
 
     public class LIterator implements Iterator{
@@ -128,7 +134,8 @@ public class LinkList<T> implements Iterable{
         //获取下一个元素的值
         @Override
         public Object next() {
-            return n.next.item;
+            n = n.next;
+            return n.item;
         }
     }
 }

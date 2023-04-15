@@ -1,4 +1,4 @@
-package com.yzx.linear.Link;
+package com.yzx.linear.Link.SingleList;
 
 /**
  * @Author YZX
