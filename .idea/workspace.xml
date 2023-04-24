@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/DoublyListTest/DoublyLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/DoublyListTest/DoublyLinkListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkListTest/LinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/SingleListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkListTest/LinkListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/SingleListTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/DoublyList/DoublyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/DoublyList/DoublyLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/FastSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/FastSlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/CircleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/Problem/CircleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/FastSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/Problem/FastSlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +36,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/SNMP&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IDEA/IDEACode/ACL",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzx.LinearTest.LinkListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.CircleCheck">
+  <component name="RunManager" selected="应用程序.Joseph">
     <configuration name="CircleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.linear.Link.SingleList.CircleCheck" />
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.CircleCheck" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.linear.Link.SingleList.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.linear.Link.SingleList.FastSlow" />
+    <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.Joseph" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.linear.Link.SingleList.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" />
+    <configuration name="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.DoublyListTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.CircleCheck" />
-        <item itemvalue="应用程序.FastSlow" />
+        <item itemvalue="应用程序.Joseph" />
+        <item itemvalue="应用程序.com.yzx.linear.Link.SingleList.CircleCheck" />
+        <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" />
         <item itemvalue="应用程序.SingleListTest1" />
         <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.SingleListTest.SingleListTest" />
-        <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,7 @@
       <workItem from="1681702536407" duration="910000" />
       <workItem from="1681981308879" duration="126000" />
       <workItem from="1682213680088" duration="4899000" />
-      <workItem from="1682300482411" duration="1322000" />
+      <workItem from="1682300482411" duration="6886000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681981395703</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="判断单向链表是否有环以及找到有环链表的入口">
+      <created>1682301975957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682301975957</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +281,8 @@
     <MESSAGE value="实现双向链表的定义以及常见API" />
     <MESSAGE value="实现单向链表反转" />
     <MESSAGE value="添加快慢指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加快慢指针" />
+    <MESSAGE value="判断单向链表是否有环以及找到有环链表的入口" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断单向链表是否有环以及找到有环链表的入口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

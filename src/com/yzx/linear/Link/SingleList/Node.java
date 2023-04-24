@@ -8,9 +8,9 @@ package com.yzx.linear.Link.SingleList;
 //用来定义节点
 public class Node<T> {
     //存储数据
-    T item;
+    public T item;
     //下一个节点
-    Node next;
+    public Node next;
 
     public Node(T item, Node next) {
         this.item = item;

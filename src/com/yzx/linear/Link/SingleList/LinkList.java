@@ -9,7 +9,7 @@ import java.util.Iterator;
  */
 //实现单向链表的构造
 public class LinkList<T> implements Iterable{
-    //记录头节点
+    //记录头节点（头节点不存放元素，只有指向下一个节点的指针）
     private Node<T> head;
     //记录链表的长度
     private int N;

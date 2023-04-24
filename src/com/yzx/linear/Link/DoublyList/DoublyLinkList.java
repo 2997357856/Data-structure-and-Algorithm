@@ -9,9 +9,9 @@ import java.util.Iterator;
  */
 //实现双向链表的构造
 public class DoublyLinkList<T> implements Iterable{
-    //记录头节点
+    //记录头节点（头节点不存放元素，只有指向下一个节点的指针）
     private Node<T> head;
-    //记录尾节点
+    //记录尾节点（尾节点存放元素，但是没有指向下一个节点的指针）
     private Node<T> end;
     //记录链表的长度
     private int N;

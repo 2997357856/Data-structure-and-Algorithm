@@ -1,4 +1,6 @@
-package com.yzx.linear.Link.SingleList;
+package com.yzx.LinearTest.LinkTest.SingleListTest.Problem;
+
+import com.yzx.linear.Link.SingleList.Node;
 
 /**
  * @Author YZX

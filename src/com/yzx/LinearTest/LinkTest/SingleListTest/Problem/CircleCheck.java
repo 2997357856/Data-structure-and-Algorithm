@@ -1,4 +1,6 @@
-package com.yzx.linear.Link.SingleList;
+package com.yzx.LinearTest.LinkTest.SingleListTest.Problem;
+
+import com.yzx.linear.Link.SingleList.Node;
 
 /**
  * @Author YZX
@@ -28,7 +30,7 @@ public class CircleCheck {
         six.next = seven;
 
         //创造环
-        seven.next = third;
+        //seven.next = third;
 
         System.out.println("链表是否有环："+isCircle(first));
         System.out.println("链表环的入口为："+getEntrance(first).item);
@@ -94,6 +96,4 @@ public class CircleCheck {
         }
         return temp;
     }
-
-
 }
