@@ -45,7 +45,7 @@
       <recent name="com.yzx.LinearTest.LinkListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ReversePoland">
+  <component name="RunManager" selected="应用程序.QueueTest1">
     <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.Joseph" />
       <module name="DataStructureAndAlgorithm" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePoland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.StackTest.ReversePoland" />
+    <configuration name="QueueTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.QueueTest.QueueTest1" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.StackTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.QueueTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" />
+    <configuration name="ReversePoland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.StackTest.ReversePoland" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.StackTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.QueueTest1" />
+        <item itemvalue="应用程序.com.yzx.LinearTest.StackTest.StackTest1" />
         <item itemvalue="应用程序.ReversePoland" />
         <item itemvalue="应用程序.ParenthesisMatch" />
-        <item itemvalue="应用程序.com.yzx.LinearTest.StackTest.StackTest1" />
         <item itemvalue="应用程序.Joseph" />
-        <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.SingleListTest.Problem.FastSlow" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,7 @@
       <workItem from="1681981308879" duration="126000" />
       <workItem from="1682213680088" duration="4899000" />
       <workItem from="1682300482411" duration="11319000" />
-      <workItem from="1682326880869" duration="1861000" />
+      <workItem from="1682326880869" duration="6934000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -255,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682322631406</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="实现栈的定义以及常见的API">
+      <created>1682328998631</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682328998631</updated>
+    </task>
+    <task id="LOCAL-00015" summary="利用栈实现括号匹配以及逆波兰式计算">
+      <created>1682329043328</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682329043328</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +300,9 @@
     <MESSAGE value="添加快慢指针" />
     <MESSAGE value="判断单向链表是否有环以及找到有环链表的入口" />
     <MESSAGE value="利用循环单链表解决约瑟夫问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用循环单链表解决约瑟夫问题" />
+    <MESSAGE value="实现栈的定义以及常见的API" />
+    <MESSAGE value="利用栈实现括号匹配以及逆波兰式计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用栈实现括号匹配以及逆波兰式计算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
