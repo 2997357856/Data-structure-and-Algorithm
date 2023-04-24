@@ -33,11 +33,13 @@ public class FastSlow {
 
 
     //查找中间值，传入的为头节点
+    //原理：两个指针进行遍历，当fast移动到尾部的时候，slow则为中间
     public static String getMid(Node head){
         //定义两个指针，fast一次移动两步，slow一次移动一步
         Node<String> fast = head;
         Node<String> slow = head;
         //使用两个指针进行遍历，当fast移动到尾部的时候，slow则为中间
+        //保证fast不为空，且有下一个节点（避免空指针异常）
         while (fast!=null && fast.next!=null){
             fast = fast.next.next;
             slow = slow.next;

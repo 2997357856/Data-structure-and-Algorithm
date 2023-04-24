@@ -7,7 +7,7 @@ import java.util.Iterator;
  * @Create 2023-04-13 10:24
  * @Java-version jdk1.8
  */
-//实现链表的构造
+//实现单向链表的构造
 public class LinkList<T> implements Iterable{
     //记录头节点
     private Node<T> head;

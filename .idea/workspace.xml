@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/DoublyListTest/DoublyLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/DoublyListTest/DoublyLinkListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkListTest/LinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/SingleListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkListTest/LinkListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/LinkTest/SingleListTest/SingleListTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/LinearTest/SequenceTest/SequenceListTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/DoublyList/DoublyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/DoublyList/DoublyLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/FastSlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/FastSlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Link/SingleList/LinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,27 +39,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/IDEA/IDEACode/DataStructureAndAlgorithm",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA/IDEACode/SNMP&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzx.LinearTest.LinkListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.FastSlow">
-    <configuration name="DoublyLinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.DoublyListTest.DoublyLinkListTest" />
+  <component name="RunManager" selected="应用程序.CircleCheck">
+    <configuration name="CircleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.linear.Link.SingleList.CircleCheck" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.DoublyListTest.*" />
+          <option name="PATTERN" value="com.yzx.linear.Link.SingleList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkListTest.LinkListTest" />
+    <configuration name="SingleListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.SingleListTest1" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.LinkListTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkListTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkListTest.LinkListTest1" />
+    <configuration name="com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.LinkListTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.DoublyListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.yzx.LinearTest.SequenceTest.SequenceListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.SequenceTest.SequenceListTest" />
+    <configuration name="com.yzx.LinearTest.LinkTest.SingleListTest.SingleListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.SingleListTest" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.SequenceTest.*" />
+          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CircleCheck" />
         <item itemvalue="应用程序.FastSlow" />
-        <item itemvalue="应用程序.LinkListTest1" />
-        <item itemvalue="应用程序.LinkListTest" />
-        <item itemvalue="应用程序.DoublyLinkListTest" />
-        <item itemvalue="应用程序.com.yzx.LinearTest.SequenceTest.SequenceListTest" />
+        <item itemvalue="应用程序.SingleListTest1" />
+        <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.SingleListTest.SingleListTest" />
+        <item itemvalue="应用程序.com.yzx.LinearTest.LinkTest.DoublyListTest.DoublyLinkListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +167,9 @@
       <workItem from="1681523319404" duration="12725000" />
       <workItem from="1681695476399" duration="121000" />
       <workItem from="1681702536407" duration="910000" />
+      <workItem from="1681981308879" duration="126000" />
+      <workItem from="1682213680088" duration="4899000" />
+      <workItem from="1682300482411" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -230,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681544867991</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加快慢指针">
+      <created>1681981395703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681981395703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +276,8 @@
     <MESSAGE value="实现链表的定义以及常见API" />
     <MESSAGE value="实现双向链表的定义以及常见API" />
     <MESSAGE value="实现单向链表反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现单向链表反转" />
+    <MESSAGE value="添加快慢指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加快慢指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

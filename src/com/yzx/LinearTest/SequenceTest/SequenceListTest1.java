@@ -7,6 +7,7 @@ import com.yzx.linear.Sequence.SequenceList;
  * @Create 2023-04-12 20:03
  * @Java-version jdk1.8
  */
+//测试顺序表的自动扩容
 public class SequenceListTest1 {
     public static void main(String[] args) {
         //测试能否自动扩容

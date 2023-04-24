@@ -7,6 +7,7 @@ import com.yzx.linear.Sequence.SequenceList;
  * @Create 2023-04-08 15:47
  * @Java-version jdk1.8
  */
+//测试顺序表的增删改查
 public class SequenceListTest {
     public static void main(String[] args) {
         SequenceList<Integer> sequenceList = new SequenceList<>(10);

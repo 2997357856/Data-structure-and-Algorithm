@@ -7,6 +7,7 @@ import java.util.Iterator;
  * @Create 2023-04-13 17:14
  * @Java-version jdk1.8
  */
+//实现双向链表的构造
 public class DoublyLinkList<T> implements Iterable{
     //记录头节点
     private Node<T> head;

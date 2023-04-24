@@ -1,4 +1,4 @@
-package com.yzx.LinearTest.DoublyListTest;
+package com.yzx.LinearTest.LinkTest.DoublyListTest;
 
 
 import com.yzx.linear.Link.DoublyList.DoublyLinkList;
@@ -8,6 +8,7 @@ import com.yzx.linear.Link.DoublyList.DoublyLinkList;
  * @Create 2023-04-15 10:56
  * @Java-version jdk1.8
  */
+//测试双向链表的增删改查
 public class DoublyLinkListTest {
     public static void main(String[] args) {
         DoublyLinkList<String> d1 = new DoublyLinkList();
