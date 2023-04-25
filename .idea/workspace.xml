@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="">
+    <list default="true" id="70504728-1ce3-4368-8530-20e788ac7561" name="变更" comment="实现键值对的定义以及常见的API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzx/linear/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzx/linear/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +43,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzx.map.SymbolTest" />
+      <recent name="com.yzx.map.Symbol" />
       <recent name="com.yzx.LinearTest.LinkListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.QueueTest1">
-    <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.Joseph" />
+  <component name="RunManager" selected="应用程序.OrderSymbolTest1">
+    <configuration name="OrderSymbolTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.map.SymbolTest.OrderSymbolTest1" />
       <module name="DataStructureAndAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.LinkTest.SingleListTest.Problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParenthesisMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.StackTest.ParenthesisMatch" />
-      <module name="DataStructureAndAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yzx.LinearTest.StackTest.*" />
+          <option name="PATTERN" value="com.yzx.map.SymbolTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SymbolTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzx.map.SymbolTest.SymbolTest1" />
+      <module name="DataStructureAndAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzx.map.SymbolTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.yzx.LinearTest.StackTest.StackTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzx.LinearTest.StackTest.StackTest1" />
       <module name="DataStructureAndAlgorithm" />
@@ -124,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.OrderSymbolTest1" />
+        <item itemvalue="应用程序.com.yzx.map.SymbolTest.SymbolTest1" />
         <item itemvalue="应用程序.QueueTest1" />
         <item itemvalue="应用程序.com.yzx.LinearTest.StackTest.StackTest1" />
         <item itemvalue="应用程序.ReversePoland" />
-        <item itemvalue="应用程序.ParenthesisMatch" />
-        <item itemvalue="应用程序.Joseph" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,8 @@
       <workItem from="1681981308879" duration="126000" />
       <workItem from="1682213680088" duration="4899000" />
       <workItem from="1682300482411" duration="11319000" />
-      <workItem from="1682326880869" duration="6934000" />
+      <workItem from="1682326880869" duration="7653000" />
+      <workItem from="1682386765433" duration="5972000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目-学习数据结构和算法">
       <created>1678614804437</created>
@@ -269,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682329043328</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="实现队列的定义以及常见的API">
+      <created>1682338699913</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682338699914</updated>
+    </task>
+    <task id="LOCAL-00017" summary="实现队列的定义以及常见的API">
+      <created>1682338728044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682338728044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +320,8 @@
     <MESSAGE value="利用循环单链表解决约瑟夫问题" />
     <MESSAGE value="实现栈的定义以及常见的API" />
     <MESSAGE value="利用栈实现括号匹配以及逆波兰式计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用栈实现括号匹配以及逆波兰式计算" />
+    <MESSAGE value="实现队列的定义以及常见的API" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现队列的定义以及常见的API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,6 +334,11 @@
           <url>file://$PROJECT_DIR$/src/com/yzx/sort/Shell.java</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/yzx/map/SymbolTest/OrderSymbolTest1.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

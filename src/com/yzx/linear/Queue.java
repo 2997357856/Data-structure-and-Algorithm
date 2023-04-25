@@ -2,7 +2,9 @@ package com.yzx.linear;
 
 import com.yzx.linear.Link.SingleList.Node;
 
+import java.util.Deque;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  * @Author YZX
@@ -52,6 +54,7 @@ public class Queue<T> implements Iterable{
             //让新节点成为尾节点
             end = newNode;
         }
+
         N++;
     }
 
@@ -94,6 +97,4 @@ public class Queue<T> implements Iterable{
             return n.item;
         }
     }
-
-
 }
